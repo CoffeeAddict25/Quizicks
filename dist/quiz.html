@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- *Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <!-- *======================================================================= -->
+    <title>Quizicks</title>
+    <script type="module" crossorigin src="assets/main-BQxHiaxf.js"></script>
+    <link rel="stylesheet" crossorigin href="assets/main-mE_m3TQv.css" />
+  </head>
+  <body>
+    <div class="modal-container hidden display-hidden">
+      <div class="modal">
+        <h1 class="pause-heading">Paused</h1>
+        <button class="btn btn-resume">Resume</button>
+        <button class="btn btn-retry">Retry</button>
+        <a class="btn btn-home"> Main Menu</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="quiz-content">
+        <div class="pause-icon">
+          <img
+            class="icon--pause"
+            src="data:image/svg+xml,%3csvg%20width='32'%20xmlns='http://www.w3.org/2000/svg'%20height='32'%20fill='none'%3e%3cg%20style='fill:%20rgb(0,%200,%200);'%3e%3cpath%20d='M25.333,4.000L6.667,4.000C5.200,4.000,4.000,5.200,4.000,6.667L4.000,25.333C4.000,26.806,5.194,28.000,6.667,28.000L25.333,28.000C26.813,28.000,28.000,26.813,28.000,25.333L28.000,6.667C28.000,5.194,26.806,4.000,25.333,4.000ZM14.667,21.333L12.000,21.333L12.000,10.667L14.667,10.667ZM20.000,21.333L17.333,21.333L17.333,10.667L20.000,10.667Z'%20style='fill:%20rgb(255,%20255,%20255);%20fill-opacity:%201;'%20class='fills'/%3e%3c/g%3e%3c/svg%3e"
+            alt="img-pause"
+          />
+        </div>
+
+        <div class="text-content">
+          <h1 class="question-heading"></h1>
+          <p class="question"></p>
+        </div>
+
+        <h2 class="timer">30</h2>
+        <div class="progress-bar">
+          <div class="progress-bar-content"></div>
+        </div>
+        <div class="button-section">
+          <button class="btn btn-options"></button>
+          <button class="btn btn-options"></button>
+          <button class="btn btn-options"></button>
+          <button class="btn btn-options"></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
